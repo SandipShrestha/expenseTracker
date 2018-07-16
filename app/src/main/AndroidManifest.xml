@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sandip.expensetracker">
+
+    <application
+        android:name=".Offline"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_enter_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".Register" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Expensify"
+            android:label="@string/title_activity_expensify"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".IncomeForm" />
+        <activity android:name=".Transaction" />
+        <activity android:name=".IncomeCategory" />
+        <activity android:name=".ExpenseCategory" />
+        <activity android:name=".ExpenseForm" />
+        <activity android:name=".About" />
+        <activity android:name=".Calculator" />
+
+    </application>
+
+</manifest>

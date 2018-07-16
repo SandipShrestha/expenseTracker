@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "279608849564",
+    "firebase_url": "https://expense-tracker-sandip.firebaseio.com",
+    "project_id": "expense-tracker-sandip",
+    "storage_bucket": "expense-tracker-sandip.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279608849564:android:7eed4b1d28406add",
+        "android_client_info": {
+          "package_name": "com.example.sandip.expensetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279608849564-2ipbi05ocedjb7e3cmgng09qet15so2m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sandip.expensetracker",
+            "certificate_hash": "4ceb2879b657d0014ec44f6add1510208d9d71f1"
+          }
+        },
+        {
+          "client_id": "279608849564-bnje5k90610el9apq9lijrd258t778ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFIVnzlTL2fTe-cvsYNSenYSuZPLMJ7Vs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279608849564-bnje5k90610el9apq9lijrd258t778ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
